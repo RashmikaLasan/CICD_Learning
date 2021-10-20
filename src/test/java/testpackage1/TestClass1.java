@@ -25,6 +25,7 @@ public class TestClass1 {
 
         driver.navigate().to("https://automationtalks.com/");
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 
     }
 
