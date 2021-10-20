@@ -17,6 +17,8 @@ public class TestClass1 {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        driver.manage().window().maximize();
+
 
     }
 
@@ -24,6 +26,7 @@ public class TestClass1 {
     public void Test1(){
 
         driver.navigate().to("https://automationtalks.com/");
+        System.out.println(driver.getTitle());
         System.out.println(driver.getTitle());
 
     }
