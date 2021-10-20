@@ -16,7 +16,9 @@ public class TestClass1 {
         System.setProperty("webdriver.chrome.driver","D:\\Software\\Selenium\\ChromeDriver93\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.manage().window().fullscreen();
+        driver.manage().window().maximize();
+        driver.manage().window().maximize();
+
 
     }
 
@@ -29,19 +31,11 @@ public class TestClass1 {
 
     }
 
-//    @Test
-//    public void Test2(){
-//
-//        driver.navigate().to("https://automationtalks.com/");
-//        System.out.println(driver.getTitle());
-//
-//    }
-
     @AfterMethod
     public void Test3(){
 
         driver.quit();
-        System.out.println("Quit the Browser");
+        System.out.println("Kulan the Browser");
 
     }
 
