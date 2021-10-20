@@ -29,13 +29,13 @@ public class TestClass1 {
 
     }
 
-//    @Test
-//    public void Test2(){
-//
-//        driver.navigate().to("https://automationtalks.com/");
-//        System.out.println(driver.getTitle());
-//
-//    }
+    @Test
+    public void Test2(){
+
+        driver.navigate().to("https://automationtalks.com/");
+        System.out.println(driver.getTitle());
+
+    }
 
     @AfterMethod
     public void Test3(){
