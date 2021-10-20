@@ -40,7 +40,7 @@ public class TestClass1 {
     public void Test3(){
 
         driver.quit();
-        System.out.println("Kulan the Browser");
+        System.out.println("Sasith the Browser");
 
     }
 
