@@ -11,9 +11,9 @@ public class TestClass1 {
     public static WebDriver driver;
 
     @BeforeMethod
-    public void launchDriver(){
+    public void launchDriver() {
 
-        System.setProperty("webdriver.chrome.driver","D:\\Software\\Selenium\\ChromeDriver93\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Software\\Selenium\\ChromeDriver93\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().fullscreen();
@@ -22,15 +22,16 @@ public class TestClass1 {
     }
 
     @Test
-    public void Test1(){
+    public void Test1() {
 
         driver.navigate().to("https://automationtalks.com/");
         System.out.println(driver.getTitle());
 
+
     }
 
     @Test
-    public void Test2(){
+    public void Test2() {
 
         driver.navigate().to("https://automationtalks.com/");
         System.out.println(driver.getTitle());
@@ -38,10 +39,10 @@ public class TestClass1 {
     }
 
     @AfterMethod
-    public void Test3(){
+    public void Test3() {
 
         driver.quit();
-        System.out.println("Sasith the Browser");
+        System.out.println("Lasith the Browser");
 
     }
 
