@@ -42,7 +42,7 @@ public class TestClass1 {
     public void Test3() {
 
         driver.quit();
-        System.out.println("Lasith the Browser");
+        System.out.println("Mike the Browser");
 
     }
 
